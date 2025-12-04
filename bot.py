@@ -16,7 +16,7 @@ class MyBot(ActivityHandler):
                 "1. **Time**: Ask 'time' to see the current server time.\n"
                 "2. **Palindrome**: Type 'palindrome [word]' to check if it's a palindrome.\n"
                 "3. **Reverse**: Send any other text and I'll say it backwards.\n"
-                "4. **Error**: Type 'error' to test error handling."
+                "4. **Error**: Type 'error' to test the error handling."
             )
         elif lower_text == "time":
             current_time = datetime.now().strftime("%I:%M:%S %p")
